@@ -59,7 +59,7 @@ Furthermore, if we are only interested in files ending in '.js', we can add a
 regular expression:
 
 ```javascript
-recfs.readdir('cache', undefined, /^.*\.js/).then((files) => {
+recfs.readdir('cache', undefined, /^.*\.js$/).then((files) => {
 	console.log(files)
 }).catch((err) => {
 	throw err
@@ -86,7 +86,7 @@ Like with the asynchronous version of the function, we can provide it with a
 regular expression to retrieve a more specific set of files:
 
 ```javascript
-let files = recfs.readdirSync('cache', undefined, /^.*\.js/)
+let files = recfs.readdirSync('cache', undefined, /^.*\.js$/)
 
 console.log(files)
 
