@@ -1,0 +1,27 @@
+{
+  "name": "recfs",
+  "version": "1.0.0",
+  "description": "Utility functions used to list all files in a directory recursively, synchronously or asynchronously.",
+  "main": "index.js",
+  "author": "Alexander Hållenius",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tabaci/recfs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tabaci/recfs/issues"
+  },
+  "keywords": [
+  	"recursive", 
+  	"fs", 
+  	"readdir", 
+  	"sync", 
+  	"async", 
+  	"list", 
+  	"all", 
+  	"files", 
+  	"recursively"
+  ], 
+  "license": "ISC",
+  "homepage": "https://github.com/Tabaci/recfs"
+}
